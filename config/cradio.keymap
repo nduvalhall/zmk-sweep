@@ -82,19 +82,19 @@
 
         symbol_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&trans        &trans        &trans            &trans          &trans    &kp GRAVE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION   &kp EXCL
+&trans        &trans        &trans            &trans          &trans    &caps_word  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PERCENT
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DOUBLE_QUOTES
+                                              &trans          &trans    &trans      &kp CAPS
             >;
         };
 
         symbol_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&kp TILDE  &kp CARET      &kp LESS_THAN  &kp GREATER_THAN  &kp COLON     &trans  &trans           &trans             &trans         &trans
+&kp STAR   &kp MINUS      &kp PLUS       &kp EQUAL         &kp HASH      &trans  &trans           &trans             &trans         &trans
+&kp PIPE   &kp AMPERSAND  &kp AT         &kp UNDER         &kp DOLLAR    &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
+                                         &trans            &trans        &trans  &trans
             >;
         };
 
