@@ -74,7 +74,7 @@
 
         nav {
             bindings = <
-&trans        &trans        &trans            &trans          &trans    &soft_off  &trans          &bt BT_NXT      &bt BT_PRV    &trans
+&trans        &trans        &trans            &trans          &trans    &soft_off  &bt BT_CLR      &bt BT_NXT      &bt BT_PRV    &bt BT_CLR_ALL
 &trans        &trans        &trans            &trans          &trans    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
 &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans     &trans          &trans          &trans        &trans
                                               &trans          &trans    &trans     &kp DELETE
