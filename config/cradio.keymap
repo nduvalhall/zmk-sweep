@@ -10,30 +10,12 @@
 #define MOUSE   5
 #define WINNAV  6
 
-&caps_word { continue-list = <UNDERSCORE MINUS>; };
+&caps_word { 
+    continue-list = <UNDERSCORE MINUS>;
+};
 
-/ {
-    combos {
-        compatible = "zmk,combos";
-
-        combo_undo {
-            timeout-ms = <50>;
-            key-positions = <20 21>;
-            bindings = <&kp LC(Z)>;
-        };
-
-        combo_q {
-            timeout-ms = <50>;
-            key-positions = <21 22>;
-            bindings = <&kp Q>;
-        };
-
-        combo_semicolon {
-            timeout-ms = <50>;
-            key-positions = <27 28>;
-            bindings = <&kp SEMI>;
-        };
-    };
+&lt {
+    tapping-term-ms = <150>;
 };
 
 / {
@@ -41,16 +23,6 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick_tap_ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-
-        hs: homerow_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_SHIFT";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             quick_tap_ms = <0>;
