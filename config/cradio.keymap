@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             quick_tap_ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -52,7 +52,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_SHIFT";
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <150>;
             quick_tap_ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -74,7 +74,7 @@
 
         nav {
             bindings = <
-&trans        &trans        &trans            &trans          &trans    &soft_off  &bt BT_CLR      &bt BT_NXT      &bt BT_PRV    &bt BT_CLR_ALL
+&none         &trans        &trans            &trans          &trans    &soft_off  &bt BT_CLR      &bt BT_NXT      &bt BT_PRV    &bt BT_CLR_ALL
 &trans        &trans        &trans            &trans          &trans    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
 &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans     &trans          &trans          &trans        &trans
                                               &trans          &trans    &trans     &kp DELETE
