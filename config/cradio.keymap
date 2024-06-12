@@ -10,13 +10,9 @@
 #define MOUSE   5
 #define WINNAV  6
 
-&caps_word { 
-    continue-list = <UNDERSCORE MINUS>;
-};
+&caps_word { continue-list = <UNDERSCORE MINUS>; };
 
-&lt {
-    tapping-term-ms = <150>;
-};
+&lt { tapping-term-ms = <150>; };
 
 / {
     behaviors {
@@ -46,37 +42,37 @@
 
         nav {
             bindings = <
-&none         &trans        &trans            &trans          &trans    &soft_off  &bt BT_CLR      &bt BT_NXT      &bt BT_PRV    &bt BT_CLR_ALL
-&trans        &trans        &trans            &trans          &trans    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans     &trans          &trans          &trans        &trans
-                                              &trans          &trans    &trans     &kp DELETE
+&none         &none         &none             &none           &none    &soft_off  &bt BT_CLR      &bt BT_NXT      &bt BT_PRV    &bt BT_CLR_ALL
+&none         &none         &none             &none           &none    &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none      &none           &none           &none         &none
+                                              &none           &none    &none      &kp DELETE
             >;
         };
 
         symbol_1 {
             bindings = <
-&trans        &trans        &trans            &trans          &trans    &kp GRAVE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION   &kp EXCL
-&trans        &trans        &trans            &trans          &trans    &caps_word  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PERCENT
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DOUBLE_QUOTES
-                                              &trans          &trans    &trans      &kp CAPS
+&none         &none         &none             &none           &none    &kp GRAVE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION   &kp EXCL
+&none         &none         &none             &none           &none    &caps_word  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PERCENT
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DOUBLE_QUOTES
+                                              &none           &none    &none       &kp CAPS
             >;
         };
 
         symbol_2 {
             bindings = <
-&kp TILDE  &kp CARET      &kp LESS_THAN  &kp GREATER_THAN  &kp COLON     &trans  &trans           &trans             &trans         &trans
-&kp STAR   &kp MINUS      &kp PLUS       &kp EQUAL         &kp HASH      &trans  &trans           &trans             &trans         &trans
-&kp PIPE   &kp AMPERSAND  &kp AT         &kp UNDER         &kp DOLLAR    &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
-                                         &trans            &trans        &trans  &trans
+&kp TILDE  &kp CARET      &kp LESS_THAN  &kp GREATER_THAN  &kp COLON     &none  &none            &none              &none          &none
+&kp STAR   &kp MINUS      &kp PLUS       &kp EQUAL         &kp HASH      &none  &none            &none              &none          &none
+&kp PIPE   &kp AMPERSAND  &kp AT         &kp UNDER         &kp DOLLAR    &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
+                                         &none             &none         &none  &none
             >;
         };
 
         number {
             bindings = <
-&trans        &kp NUMBER_7  &kp N8        &kp NUMBER_9  &trans    &trans  &trans           &trans             &trans         &trans
-&kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans  &trans           &trans             &trans         &trans
-&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
-                                          &kp ESCAPE    &trans    &trans  &trans
+&none         &kp NUMBER_7  &kp N8        &kp NUMBER_9  &none    &none  &none            &none              &none          &none
+&kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none    &none  &none            &none              &none          &none
+&none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
+                                          &kp ESCAPE    &none    &none  &none
             >;
         };
     };
