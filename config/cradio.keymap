@@ -76,12 +76,12 @@
             >;
         };
 
-        focal {
+        focal_0 {
             bindings = <
 &kp V           &kp L           &kp H               &kp G             &kp K        &kp Q        &kp F             &kp O               &kp U           &kp J
 &hm LEFT_GUI S  &hm LEFT_ALT R  &hm LEFT_CONTROL N  &hm LEFT_SHIFT T  &kp B        &kp Y        &hm LEFT_SHIFT C  &hm LEFT_CONTROL A  &hm LEFT_ALT E  &hm LEFT_GUI I
 &kp Z           &kp X           &kp M               &kp D             &kp P        &kp SQT      &kp W             &kp PERIOD          &kp SEMI        &kp COMMA
-                                                    &lt 6 SPACE       &lt 8 TAB    &lt 9 ENTER  &lt 10 ESCAPE
+                                                    &lt 6 SPACE       &lt 7 TAB    &lt 8 ENTER  &lt 9 ESCAPE
             >;
         };
 
@@ -96,37 +96,28 @@
 
         focal_2 {
             bindings = <
-&none         &none         &none             &none           &none    &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none          &none
+&none         &none         &none             &none           &none    &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE      &none
 &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp QMARK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PERCENT
 &none         &none         &none             &none           &none    &kp EXCL   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DOUBLE_QUOTES
                                               &none           &none    &none      &kp CAPS
             >;
         };
 
-        layer_7 {
+        focal_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&none     &kp CARET      &kp LESS_THAN  &kp GREATER_THAN  &kp COLON     &none  &none           &none             &none         &none
+&kp STAR  &kp MINUS      &kp PLUS       &kp EQUAL         &kp HASH      &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
+&kp PIPE  &kp AMPERSAND  &kp AT         &kp UNDER         &kp DOLLAR    &none  &none           &none             &none         &none
+                                        &none             &none         &none  &none
             >;
         };
 
-        layer_8 {
+        focal_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
-            >;
-        };
-
-        layer_9 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&none         &kp NUMBER_7  &kp N8        &kp NUMBER_9  &none    &none  &none           &none             &none         &none
+&kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none    &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
+&none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &none  &none           &none             &none         &none
+                                          &none         &none    &none  &none
             >;
         };
     };
