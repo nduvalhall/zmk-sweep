@@ -75,5 +75,41 @@
                                           &kp ESCAPE    &none    &none  &none
             >;
         };
+
+        focal {
+            bindings = <
+&kp V  &kp L  &kp H  &kp G   &kp K     &kp Q    &kp F   &kp O       &kp U          &kp J
+&kp S  &kp R  &kp N  &kp T   &kp B     &kp Y    &kp C   &kp A       &kp E          &kp I
+&kp Z  &kp X  &kp M  &kp D   &kp P     &kp SQT  &kp W   &kp PERIOD  &kp SEMICOLON  &kp COMMA
+                     &trans  &trans    &trans   &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
     };
 };
