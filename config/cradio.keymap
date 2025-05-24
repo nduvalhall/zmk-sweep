@@ -81,16 +81,25 @@
 &kp V           &kp L           &kp H               &kp G             &kp K        &kp Q        &kp F             &kp O               &kp U           &kp J
 &hm LEFT_GUI S  &hm LEFT_ALT R  &hm LEFT_CONTROL N  &hm LEFT_SHIFT T  &kp B        &kp Y        &hm LEFT_SHIFT C  &hm LEFT_CONTROL A  &hm LEFT_ALT E  &hm LEFT_GUI I
 &kp Z           &kp X           &kp M               &kp D             &kp P        &kp SQT      &kp W             &kp PERIOD          &kp SEMI        &kp COMMA
-                                                    &lt 6 SPACE       &lt 7 TAB    &lt 8 ENTER  &lt 9 ESCAPE
+                                                    &lt 6 SPACE       &lt 8 TAB    &lt 9 ENTER  &lt 10 ESCAPE
             >;
         };
 
-        layer_6 {
+        focal_1 {
             bindings = <
 &none         &none         &none             &none           &none    &none  &none           &none           &none         &none
 &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
 &none         &none         &none             &none           &none    &none  &none           &none           &none         &none
                                               &none           &none    &none  &kp BACKSPACE
+            >;
+        };
+
+        focal_2 {
+            bindings = <
+&none         &none         &none             &none           &none    &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none          &none
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp QMARK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PERCENT
+&none         &none         &none             &none           &none    &kp EXCL   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DOUBLE_QUOTES
+                                              &none           &none    &none      &kp CAPS
             >;
         };
 
