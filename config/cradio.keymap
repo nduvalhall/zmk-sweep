@@ -33,37 +33,37 @@
         default_layer {
             label = "Default";
             bindings = <
-&kp Q            &kp W           &kp F               &kp P         &kp B        &kp J        &kp L              &lt 0 U                  &kp Y              &kp SEMI
-&kp A            &kp R           &kp S               &kp T         &kp G        &kp M        &kp N              &kp E                    &kp I              &kp O
-&hm LEFT_META Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LSHIFT D  &kp V        &kp K        &hm RIGHT_SHIFT H  &hm RIGHT_CONTROL COMMA  &hm RIGHT_ALT DOT  &hm RIGHT_GUI APOS
-                                                     &lt 1 SPACE   &lt 2 TAB    &lt 3 ENTER  &lt 4 BACKSPACE
+&kp Q            &kp W           &kp F               &kp P         &kp B        &kp J        &kp L             &kp U                   &kp Y             &kp SEMI
+&kp A            &kp R           &kp S               &kp T         &kp G        &kp M        &kp N             &kp E                   &kp I             &kp O
+&hm LEFT_META Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LSHIFT D  &kp V        &kp K        &hm LEFT_SHIFT H  &hm LEFT_CONTROL COMMA  &hm LEFT_ALT DOT  &hm LEFT_GUI APOS
+                                                     &lt 1 SPACE   &lt 2 TAB    &lt 3 ENTER  &lt 4 ESCAPE
             >;
         };
 
         nav {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_NXT    &bt BT_PRV        &none           &none    &none  &none           &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &none
-&none           &none         &bootloader       &sys_reset      &none    &none  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW
-&kp LEFT_GUI    &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none  &none           &none              &none            &none
-                                                &none           &none    &none  &kp DELETE
+&none           &none         &none             &none           &none    &none  &none           &none           &none         &none
+&bt BT_CLR_ALL  &bt BT_CLR    &bt BT_SEL 1      &bt BT_SEL 0    &none    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
+&kp LEFT_GUI    &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none  &none           &none           &none         &none
+                                                &none           &none    &none  &kp BACKSPACE
             >;
         };
 
         symbol_1 {
             bindings = <
-&none         &none         &none             &none           &none    &kp GRAVE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION   &kp EXCL
-&none         &none         &none             &none           &none    &caps_word  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PERCENT
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DOUBLE_QUOTES
-                                              &none           &none    &none       &kp CAPS
+&none         &none         &none             &none           &none    &none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE      &none
+&none         &none         &none             &none           &none    &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &kp PERCENT
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp DOUBLE_QUOTES
+                                              &none           &none    &none  &kp CAPS
             >;
         };
 
         symbol_2 {
             bindings = <
-&kp TILDE  &kp CARET      &kp LESS_THAN  &kp GREATER_THAN  &kp COLON     &none  &none            &none              &none          &none
-&kp STAR   &kp MINUS      &kp PLUS       &kp EQUAL         &kp HASH      &none  &none            &none              &none          &none
-&kp PIPE   &kp AMPERSAND  &kp AT         &kp UNDER         &kp DOLLAR    &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
-                                         &none             &none         &none  &none
+&none     &kp CARET      &kp LESS_THAN  &kp GREATER_THAN  &kp COLON     &none  &none            &none              &none          &none
+&kp STAR  &kp MINUS      &kp PLUS       &kp EQUAL         &kp HASH      &none  &none            &none              &none          &none
+&kp PIPE  &kp AMPERSAND  &kp AT         &kp UNDER         &kp DOLLAR    &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
+                                        &kp QUESTION      &kp EXCL      &none  &none
             >;
         };
 
@@ -72,7 +72,7 @@
 &none         &kp NUMBER_7  &kp N8        &kp NUMBER_9  &none    &none  &none            &none              &none          &none
 &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none    &none  &none            &none              &none          &none
 &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
-                                          &kp ESCAPE    &none    &none  &none
+                                          &kp DELETE    &none    &none  &none
             >;
         };
     };
