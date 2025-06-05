@@ -33,10 +33,10 @@
         MAIN {
             label = "Default";
             bindings = <
-&kp Q            &kp W           &kp F               &kp P         &kp B        &kp J        &kp L             &kp U                   &kp Y             &kp SEMI
-&kp A            &kp R           &kp S               &kp T         &kp G        &kp M        &kp N             &kp E                   &kp I             &kp O
-&hm LEFT_META Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LSHIFT D  &kp V        &kp K        &hm LEFT_SHIFT H  &hm LEFT_CONTROL COMMA  &hm LEFT_ALT DOT  &hm LEFT_GUI APOS
-                                                     &lt 1 SPACE   &lt 2 TAB    &lt 3 ENTER  &lt 4 ESCAPE
+&kp Q           &kp W           &kp F               &kp P         &kp B        &kp J        &kp L             &kp U                   &kp Y             &kp SEMI
+&kp A           &kp R           &kp S               &kp T         &kp G        &kp M        &kp N             &kp E                   &kp I             &kp O
+&hm LEFT_GUI Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LSHIFT D  &kp V        &kp K        &hm LEFT_SHIFT H  &hm LEFT_CONTROL COMMA  &hm LEFT_ALT DOT  &hm LEFT_GUI APOS
+                                                    &lt 1 SPACE   &lt 2 TAB    &lt 3 ENTER  &lt 4 ESCAPE
             >;
         };
 
