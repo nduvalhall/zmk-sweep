@@ -78,10 +78,10 @@
 
         MAIN2 {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B    &kp J  &kp L  &kp U      &kp Y    &kp SEMI
-&kp A  &kp R  &kp S  &kp T  &kp G    &kp M  &kp N  &kp E      &kp I    &kp O
-&kp Z  &kp X  &kp C  &kp D  &kp V    &kp K  &kp H  &kp COMMA  &kp DOT  &kp SQT
-                     &sl 6  &sl 7    &sl 8  &sl 9
+&kp Q           &kp W           &kp F               &kp P             &kp B    &kp J  &kp L             &kp U                   &kp Y                &kp SEMI
+&kp A           &kp R           &kp S               &kp T             &kp G    &kp M  &kp N             &kp E                   &kp I                &kp O
+&hm LEFT_GUI Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LEFT_SHIFT D  &kp V    &kp K  &hm LEFT_SHIFT H  &hm LEFT_CONTROL COMMA  &hm LEFT_ALT PERIOD  &hm LEFT_GUI SQT
+                                                    &sl 6             &sl 7    &sl 8  &sl 9
             >;
         };
 
